@@ -1,0 +1,564 @@
+1.Care sunt dezavantajele Enterprise Service Bus (ESB)?
+
+a.Efort mare de ajustare la schimbarea adresei IP a furnizorului
+b.Fiabilitate redusă a sistemului în caz de eșec al furnizorului de servicii
+c.Cuplaj scăzut în arhitectură
+d.Cuplaj ridicat în arhitectură
+rasp:a,b,d
+
+2.Cel mai mare divizor comun a două sau mai multe numere este:
+
+a.Produsul factorilor comuni luati o singura data fiecare, cu exponentul cel mai mic
+b.Cel mai mare număr natural (divizor) prin care toate aceste numere pot fi împărțite
+c.Produsul factorilor comuni si necomuni luati o singura data la puterea cea mai mare (cu cel mai mare exponent la care apar)
+d.Produsul factorilor comuni luati o singura data fiecare
+rasp:b,c
+
+3.Alegeti varianta corecta:
+
+a.Procesele nu au propriul lor spatiu de adrese. Firele de executie (thread-urile) au propriul lor spatiu de adrese.
+b.Procesele si firele de executie (thread-urile) au propriul lor spatiu de adrese.
+c.Procesele si firele de executie (thread-urile) nu au propriul lor spatiu de adrese.
+d.Procesele au propriul lor spatiu de adrese. Firele de executie (thread-urile) nu au propriul lor spatiu de adrese.
+rasp:d
+
+4.Convenţiile de alocare a numărului de port se regăsesc în orice implementare TCP/IP, sub forma unui fişier denumit  services .
+
+etc services jobs sockets
+
+5.TCP provine de la Transmission Control Protocol
+
+6.Ce este un proces?
+Selectați unul:
+a.Un proces este un program secvential in executie, impreuna cu zona sa de date, stiva si numaratorul de instructiuni (program counter).
+b.Este zona de date utilizata pentru executia programelor
+c.Un program compilat ce asteapta sa fie rulat
+d.Este o secventa de instructiuni
+rasp:a
+
+7.Ordonati pasii facuti de algoritmul bancherului pentru detectarea aparitiei unui deadlock in vederea prevenirii acestuia.
+
+P1:
+Răspunsul
+Se cauta un rand din matricea de resurse cerute care este mai mic decat vectorul de resurse disponibile
+P2:
+Răspunsul
+Daca mai sunt randuri si daca nu exista niciun rand care este mai mic ca vectorul de resurse disponibile sistemul se va bloca
+P3:
+Răspunsul
+Iar daca exista un rand care este mai mic ca vectorul de resurse disponibile acesta este deservit si resursele sale din matricea de resurse ocupate sunt transferate in vectorul de resurse dispobibile
+P4:
+Răspunsul
+Daca toate procesele au fost deservite si resursele ocupate de acestea au fost eliberate algoritmul se termina si nu s-a detectat interblocare
+Vă rugăm să răspundeți la toată întrebarea
+
+8.Care sunt conditii de aparitie a interblocarii (deadlock) dupa Coffman?
+
+Selectați unul sau mai multe:
+
+a.Exista procese care cer resurse, dar păstrează în același timp altele ocupate (hold and wait)
+b.Accesul la resurse nu se poate face fortat - se pot elibera doar de procesul care a ocupat resursele (non-preemptiune)
+c.Resursele sunt utilizate exclusiv de către procesele ce le-au ocupat (excludere mutuala)
+d.Cel puțin două procese sunt dependente circular prin resursele cerute (asteptare circulara)
+rasp:toate
+
+9.Ce comanda se utilizeaza pentru pornirea unui proces?
+
+Selectați unul:
+a.Execute
+b.Split
+c.Fork
+d.Run
+rasp:c
+
+10.Care dintre următoarele protocoale nu fac parte din nivelul transport?
+
+a.TCP (Transmission Control Protocol)
+b.HTTP (Hypertext Transfer Protocol)
+c.UDP (User Datagram Protocol)
+d.IP (Internet Protocol)
+rasp:b,d
+
+11.Prin modelul publisher-subscriber, clientul și furnizorul de servicii sunt înregistrare la un mecanism central complet decuplat (ambele pot fi inlocuite în timpul rulării).
+
+Selectați o opțiune:
+Adevărat
+Fals
+rasp:adevarat
+
+12.Un dispatcher-thread preia solicitările venite din rețea , iar un worker-thread verifică in cache disponibilitatea paginii cerute
+
+13.wait() este metoda utilizata pentru a determina metoda main sa astepte terminarea executiei unui thread.
+
+14.Care dintre urmatoarele apeluri sunt posibile in Java la instantierea unei variabile de tip socket?
+a.Socket s = new Socket("127.0 0.1", 5000);
+b.Socket s = new Socket("google.com", 80);
+c.Socket s = new Socket(168.123, 4712);
+d.Socket s = new Socket(args[0], 4712);
+rasp:a,b,d
+
+15. Care dintre urmatoarele pot fi resurse critice?
+
+Selectați unul sau mai multe:
+
+a.Mesaje
+b.Obiecte software
+c.Date
+d.Semnale
+rasp:toate
+
+16. Care dintre activitatile de mai jos sunt posibile in cadrul unei retele?
+
+a.E-mail / chat prin Internet
+b.Acces / schimb de informații la nivelul întregii companii
+c.Accesarea fișierelor de la distanță
+d.Conectare pe alt computer aflat la distanță 
+rasp:toate
+
+17.Care dintre variantele următoare sunt caracteristice unuei arhitecturi bazate pe o cuplare slabă?
+
+a.Legăturile (binding) sunt statice.
+b.Conexiunea este realizată fizic printr-un ESB (Enterprise Service Bus).
+c.Comunicarea este asincronă.
+d.Siguranța tranzacțiilor este realizată prin compensare.
+rasp:b,c,d
+
+18. Procesele:
+
+Selectați unul sau mai multe:
+
+a.Au propriul spatiu de adrese
+b.Pot porni threaduri in propriul spatiu de adrese
+c.Primesc acelasi port dedicat la rulare
+d.Nu pot rula mai mult de 10 threduri
+rasp:a,b
+
+19.Care sunt pasii de rezolvare a problemelor prin impartire in subprobleme?
+C:
+Răspunsul
+Implementarea practică a acestor subprobleme/soluții
+B:
+Răspunsul
+Combinarea soluțiilor parțiale într-o singură soluție generală
+A:
+Răspunsul
+Împărțirea unei sarcini generale în sub-sarcini
+
+
+20.In comunicarea Client/Server
+
+Selectați unul sau mai multe:
+
+a.clientul gestioneaza serviciile serverului
+b.serverul isi gaseste propii clienti
+c.clientul utilizeaza serviciile serverului
+d.serverul isi pune serviciile la dispozitie clientilor
+rasp:c,d
+
+21.Un sistem de operare implementeaza gestionarea proceselor prin:
+
+Selectați unul sau mai multe:
+
+a.ierarhii de procese
+b.oprire de procese
+c.gestiunea descriptorilor de procese
+d.comutare de procese
+rasp: toate
+
+22.Care dintre urmatorii algoritmi sunt bazati pe cvorum (quorum)?
+
+Selectați unul sau mai multe:
+
+a.Algoritmul Suzuki-Kasami
+b. Sanders - bazat pe permisiune universala
+c.Algoritmul Perpetuum Mobile
+d.Cao și Singhal - optimizarea pentru intarzierea de coordonare
+rasp:b,d
+
+23.Daca o resursă este ocupată exclusiv si un alt proces formulează cerere pentru aceasta si acesta trebuie sa aștepte eliberarea resursei. Aceasta etapă este:
+
+Selectați unul:
+
+a.notificare
+b.eliberare
+c.ocupare si asteptare
+d.excludere mutuala
+rasp:d
+
+24.Care este complexitatea (de timp si mesaje transferate) in cazul cel mai defavorabil pentru algoritmul Chang-Roberts?
+
+Selectați unul sau mai multe:
+
+a.timp mediu de executie O ( n^2 )
+b.numar mediu de mesaje O ( n^2 )
+c.numar mediu de mesaje O ( n )
+d.timp mediu de executie O ( n )
+rasp:b,d
+
+25.Care este o abordare naturală a rezolvării problemelor prin divizarea acestora in subprobleme?
+
+Selectați unul sau mai multe:
+
+a.Adunarea solutiilor partiale in mai multe solutii
+b.Asamblarea soluțiilor parțiale într-o soluție totală
+c.Împărțirea unei sarcini globale în subsarcini
+d.Împărțirea unei sarcini locale în taskuri
+rasp:b,c
+
+26. Care dintre afirmațiile urmatoare despre algoritmul Chang-Roberts sunt adevărate?
+
+a.Scopul acestui algoritm este de a găsi noduri cu ID maxim.
+b.ondiția inițială este ca fiecare nod să aibă un ID unic, pe care să fie definită 
+o relatie de ordine totală.
+c.Condiția finală este ca fiecare nod să aibă un ID unic, pe care să fie definită o relatie de ordine totală.
+d.Scopul acestui algoritm este de a găsi noduri cu ID minim.
+rasp:a,b
+
+27. Ce metoda este utilizata pentru a afla prioritatea unui Thread?
+
+a.threadPriority()
+b.getPriority()
+c.get()
+d.getThreadPriority()
+rasp:b
+
+28.Care dintre urmatoarele egalități sunt corecte?
+
+a.cmmdc(a,0) = a
+b.cmmdc(a,b) = cmmdc(a, a mod b)
+c.cmmdc(a,0) = 0
+d.cmmdc(b,a) = cmmdc(a,b)
+rasp: a,d
+
+29.Care sunt condițiile necesare pentru apariția interblocării?
+
+Selectați unul sau mai multe:
+
+a.Așteptare circulară
+b.Ocupare și așteptare
+c.Imposibilitatea achiziționării forțate
+d.Excludere mutuală
+rasp:toate
+
+30.Ce dezavantaje are protocolul 2PC (commit in doua faze) in cazul arhitecturilor orientate pe servicii?
+
+Selectați unul sau mai multe:
+
+a.Necesită ca toate sistemele și serviciile participante sa fie disponibile
+b.2PC nu implică cuplarea liberă
+c.Doar primele n părți ale unei tranzacții distribuite sunt executate
+d.Nu exista probleme in cazul proceselor de durata
+rasp:a,b
+
+31.Care dintre urmatoarele sunt afirmatii adevarate referitoare la complexitatea numarului de mesaje transferate in cazul algoritmului Peterson?
+
+Selectați unul sau mai multe:
+
+a.numarul mediu de mesaje interschimbate este O (n log n^2)
+b.la fiecare fază, numărul de noduri active este cel puțin înjumătățit, deci numărul maxim de faze este | log n | + 1
+c.numarul mediu de mesaje interschimbate este O (n log n)
+d.sunt transmise un număr de maxim de doua mesaje in fiecare fază a algoritmului
+rasp:b,c,d
+
+32.Cu ajutorul carui mecanism pot fi protejate variabilele de stare in problema frizerului?
+
+Selectați unul:
+
+a.folosind fire de executie
+b.folosind baze de date
+c.nici un raspuns corect
+d.folosind mutexuri
+rasp:d
+
+33. Ce rol are un Dispatcher-Thread?
+
+Selectați unul:
+
+a.Trimite raspunsuri la cererile primite din retea 
+b.Verifica disponibilitatea unei pagini de memorie cerute de alte threaduri in memoria cache.
+c.Asigura securitatea retelei
+d.Asculta cereri de retea si porneste threaduri de tip Worker pentru a le deservi
+rasp:d
+
+34.Care sunt dezavantajele folosirii unui sistem de comunicații point-to-point?
+
+a.Există o cuplare slabă în arhitectura sistemului.
+b.Schimbarea adresei IP a furnizorului se efectuează cu un efort mare.
+c.Costurile dezvoltării unui astfel de sistem sunt foarte ridicate.
+d.Sistemul prezintă o fiabilitate redusă în cazul unei defecțiuni la furnizorul de servicii.
+rasp: b,d
+
+35. In modelul client-server care dintre componente initializeaza conexiunea?
+
+Selectați unul:
+
+a.Clientul
+b.Serverul
+c.Oricare
+d.Atat clientul cat si serverul
+rasp:a
+
+36.In cazul algoritmului bancherului, dacă n este numărul de procese din sistem şi m este numărul de resurse, se definesc:
+
+a) D(„Disponibil”) - vector de dimensiune m care indică numărul de elemente disponibile ale resurselor;
+b) M(„Maxim”) - matrice de dimensiune nxm care indică numărul maxim de cereri care pot fi formulate de către fiecare proces;
+c) A(„Alocare”) - matrice de dimensiune nxm care indică numărul de elemente din fiecare resursă care sunt alocate în mod curent fiecărui proces;
+d) N(„Necesar”) - matrice de dimensiune nxm care indică numărul de elemente ce ar mai putea fi necesare fiecărui proces
+
+37.Cum putem trata interblocările?
+
+Selectați unul sau mai multe:
+
+a.Combinarea algoritmilor de baza
+b.Algoritmul bancherului
+c.Algoritmul de detectare a interblocării
+d.Graful de alocare a resurselor
+rasp:b
+
+38.Care dintre urmatoarele sunt platforme Java pentru comunicare asincrona?
+
+Selectați unul sau mai multe:
+
+a.API (Application Programming Interface)
+b.AMQP (Advanced Message Queuing Protocol)
+c.MQTT (Message Queuing Telemetry Transport)
+d.JMS (Java Message Service)
+rasp:b,c,d
+
+39. Pe ce mecanism de comunicare se bazeaza SOA?
+
+a.cerere/raspuns sincron si asincron
+b.coada de mesaje
+c.memorie partajata
+d.pipe
+rasp:a
+
+40. Care dintre algoritmii urmatori sunt algoritmi de selectie si se bazează pe utilizarea unei topologii de tip inel?
+
+
+a.Algoritmul Peterson
+b.Algoritmul bancherului
+c.Algoritmul Chang-Roberts
+d.Algoritmul Round-Robin
+rasp:a,c
+
+41.Cerințe pentru algoritmii de selectie (vot) sunt:
+
+a.Unicitate: exista noduri care cunosc lideri diferiți .
+b.Încheiere: se ajunge la o stare în care nu toate nodurile îl cunosc pe lider.
+c.Încheiere: se ajunge la o stare în care toate nodurile îl cunosc pe lider.
+d.Unicitate: toate nodurile cunosc acelasi lider (nu exista noduri care cunosc lideri diferiți).
+rasp: c,d
+
+42.Care dintre urmatoarele afirmatii referitoare la procese nu sunt corecte?
+
+
+Selectați unul sau mai multe:
+
+a.Un thread este compus din mai multe procese
+b.Procesul nu are un spatiu de adrese de memorie propriu pe care il utilizeaza
+c.Un process poate fi compus din mai multe thread-uri
+d.Procesul are un spatiu de adrese de memorie propriu pe care il utilizeaza
+rasp:a,b
+
+43.Ce tip de problema se defineste prin cerintele urmatoare?
+
+În sistemele distribuite pot exista multe situații care necesită un nod coordonator.
+De exemplu: coordonator de acțiuni distribuite, generarea de jetoane unice în sistem.
+Se cere ca acest nod să fie determinat automat (inițial la pornirea sistemuluic sau la reconfigurarea sistemului cand apar erori).
+
+a.alocare resurse
+b.retea
+c.selectie
+d.interblocare
+rasp:a
+
+44.In cazul algoritmului ggT (cel mai mare divizor comun), cum recunosc nodurile implicate terminarea/sfarsitul algoritmului?
+
+
+a.Dacă un observator global determină că toate nodurile au aceeași valoare
+b.Dacă valoarea locală > ggT ( ggT = cel mai mare divizor comun)
+c.Dacă nu mai au loc calcule ( nici calcule locale active, nici mesaje pe retea)
+d.Dacă valoarea locală == ggT ( ggT = cel mai mare divizor comun)
+rasp:a,c,d
+
+45.Care este solutia propusa de algoritmul Vogel-Strauss pentru tratare/evitare deadlock?
+
+Selectați unul:
+
+a.unul dintre  procesele care ruleaza trebuie sa se opreasca fortat
+b.procesele implicate trebuie rulate pe rand
+c.la aparitia unui deadlock acesta trebuie ingorat 
+d.un proces sa porneasca numai atunci cand nu utilizeaza variabile globale
+rasp:c
+
+46.suspend() este metoda utilizata pentru a determina suspendarea executiei unui thread.
+
+47.Care dintre următoarele acțiuni sunt efectuate de către sistemul de operare?
+
+a.gestionarea descrierii unui proces
+b.crearea de procese și formarea de ierarhii de procese
+c.comutarea între procese
+d.oprirea unui proces
+rasp:toate
+
+48.Comutarea proceselor implica ștergerea unor informații salvate anterior despre procese.
+
+Selectați o opțiune:
+Adevărat
+Fals
+rasp: Fals
+
+49.Spatiile de adrese ale diferitelor procese sunt:
+
+Selectați unul sau mai multe:
+
+a.Separate
+b.Deschise sa primeasca si alte procese
+c.Protejate impotriva interventiei altor procese
+d.Definite de utilizator
+rasp:a,c
+
+50.Care dintre următorii algoritmi este folosit pentru evitarea interblocării (deadlock)?
+
+a.Algoritmul Chang-Roberts
+b.Algoritmul bancherului
+c.Algoritmul ggT
+d.Algoritmul Vogel-Strauß
+rasp:b
+
+51.run() este local in cod (metoda) utilizat pentru implementarea functionalitatilor unui thread.
+
+52.start() este metoda utilizata pentru a determina pornirea executiei unui thread.
+
+53.Comutarea proceselor implica salvarea unor informatii care sa poata fi restaurate ulterior.
+
+Selectați o opțiune:
+Adevărat
+Fals
+rasp:adevarat
+
+54. La rularea unui program registrele procesorului contin:
+
+a.Pointerul stivei
+b.Registrul general
+c.Celula de memorie adresata din program
+d.Acumulatorul
+rasp:a,b,c
+
+55.Care sunt avantajele unei dependinte slabe intre procese?
+
+Selectați unul sau mai multe:
+
+a.Grad de libertate ridicat în executarea de subprocese
+b.Utilizare bună a resurselor
+c.Timpii de așteptare pentru citiri/tipariri sunt utilizati automat de alte procese
+d.O buna organizaree si administarea a activitatii
+rasp:toate
+
+56.Care sunt avantajele ale unei arhitecturi orientate pe servicii?
+
+Selectați unul sau mai multe:
+
+a.creșterea efortului pentru integrare și tratare erori
+b.performanță mai slabă
+c.eficacitate ridicata
+d.flexibilitate pentru modificările necesare, întreținerea serviciilor si schimbarea intre ele
+rasp:c,d
+
+57.Un thread mai este denumit si proces usor .
+
+58.Ce instructiune pseudocod reprezintă condiția caracteristică algoritmului cmmdc de calculare a noii valori, MYVAL, la primirea unei valori VAL?
+
+
+a.MYVAL := VAL>MYVAL ? (VAL mod MYVAL)supăratMYVAL mod VAL)
+b.MYVAL := VAL<MYVAL ? (VAL mod MYVAL)supăratMYVAL mod VAL)
+c.MYVAL := VAL>=MYVAL ? (VAL mod MYVAL)supăratMYVAL mod VAL)
+d.MYVAL := VAL<=MYVAL ? (VAL mod MYVAL)supăratMYVAL mod VAL)
+rasp: a
+
+59.isAlive() este metoda utilizata pentru a determina daca un thread este intr-o stare de interblocare.
+
+60.Din ce este format un process?
+
+Selectați unul sau mai multe:
+
+a.Clasa main
+b.Date program
+c.Program executabil
+d.Stiva
+rasp:b,c,d
+
+61. Care dintre urmatoarele stari nu sunt stari ale unui thread?
+
+a.Runnable
+b.Sleep
+c.Terminated
+d.New
+rasp:b
+
+62. Cum detecteaza nodurile ce rezolva un algoritm distribuit terminarea acestuia?
+
+Selectați unul sau mai multe:
+
+a.Sarcinile de calcul s-au terminat
+b.Un observator global afla ca toate nodurile au aceeasi valoare
+c.Un observator local al nodului afla ca toate nodurile au aceeasi valoare
+d.Valoarea locala a nodului este egala cu valoarea cautata de algoritmul distribuit
+rasp:a,b,d
+
+63. Care sunt avantajele Enterprise Service Bus (ESB)?
+
+a.Cuplare redusă a aplicațiilor
+b.Mai puține ajustări pentru client
+c.Costuri de dezvoltare minime
+d.Fiabilitate mai mare
+rasp:a,b,d
+
+64.In cazul algoritmului ggT (cel mai mare divizor comun), care dintre urmatoarele variante reprezinta factori care influenteaza complexitatea algoritmului?
+
+a.Numărul de noduri utilizate la rezolvarea problemei
+b.Timpul maxim și mediu până la terminare
+c.Timpul total al calculelor efectuate
+d.Numărul maxim și mediu de operații și mesaje locale
+rasp:b,d
+
+65. Principalele probleme care trebuie rezolvate în cazul achiziționării forțate a resurselor sunt:
+
+Selectați unul sau mai multe:
+
+a.evitarea înfometării (starvation), adică să nu fie selectat pentru achiziționare forțată a resurselor un același proces;
+b.eliminarea proceselor cărora li se vor aloca resursele după criterii FIFO;
+c.reluarea execuției: pentru un proces căruia i s-au luat forțat anumite resurse nu-și mai poate continua normal execuția, aceasta trebuie reluată dintr-un moment anterior, când a primit prima dintre resursele luate;
+d.alegerea proceselor cărora li se vor lua resursele, după criterii care să conducă la costuri minime (numărul resurselor ocupate, timpul de execuție consumat);
+rasp:a,d
+
+66.Indicati metode utilizate pentru trecerea unui thread din starea waiting in starea runnable.
+
+a.alocarea de memorie suplimentara procesului parinte
+b.notify/notifyAll
+c.utilizand metoda resume() atunci cand threadu a fost suspendat
+d.la expirarea intervalului de timp stabilit prin apelul metodei sleep()
+rasp:b
+
+67.Caracteristici ale algoritmului bancherului sunt:
+
+Selectați unul sau mai multe:
+
+a.resursele sunt împărțite în resurse totale și resurse disponibile
+b.este utilizat pentru a rezolva blocările
+c.este utilizat pentru a detecta interblocările
+d.resursele și procesele disponibile sunt cunoscute
+rasp:a,c,d
+
+68.Protocol de comunicare in retea reprezinta un canal prin intermediul caruia se realizeaza schimbul de pachete de date
+
+69.Un thread creat si pornit se afla in starea Runnable.
+
+70.Care dintre urmatoarele afirmatii legate de selectia pe topologia inel sunt adevarate?
+
+a.Fiecare proces activ își compară ID-ul cu cel primit de la cei doi predecesori activi
+b.In fiecare fază numărul proceselor active este cel puțin înjumătățit
+c.Toate distribuțiile posibile ale ID-urilor sunt la fel de probabile
+d.Acțiunile locale necesită timp neglijabil
+rasp:toate
