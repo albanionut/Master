@@ -1,0 +1,1025 @@
+În ce pachet sunt definite adnotările JPA?
+a.
+javax.persistence
+b.
+java.persistence
+c.
+jpa.persistence
+d.
+javac.persistence
+Raspuns: a
+
+
+Care dintre urmatoarele sunt caracteristici ale ORM (Object Relational Mapping)? 
+a.
+Este utilizat pentru manipularea inregistrarilor in tabelele din bazele de date folosind obiecte asociate acestora
+b.
+Simpllifica crearea de tabele in aplicatii
+c.
+Este utilizat pentru gestiunea conexiunilor la bazele de date
+d.
+Tehnica de mapare a reprezentarii datelor
+Raspuns:a, c, d
+
+
+Care dintre urmatoarele nu sunt exemple de adnotari JPA (Java Persistence API)?
+a.@PrimaryKey
+b.@Table
+c.@Id
+d.@Entity 
+Raspuns: a
+
+
+Care este ordinea de execuție a fazelor din ciclul de viață al unui proiect gestionat cu Maven?
+a.
+compile, test, validate, package, install, verify, deploy
+b.
+compile, validate, test, package, verify, install, deploy
+c.
+verify, compile, test, package, validate, install, deploy
+d.
+validate, compile, test, package, verify, install, deploy
+Raspuns:d
+
+
+Ce reprezinta un datasource (sursa de date)? 
+a.
+numele specificat al unei conexiuni de la un serviciu web la un server
+b.
+numele specificat al unei conexiuni de la o baza de date la un server
+c.
+numele specificat al unei conexiuni de la server la o baza de date 
+d.
+numele specificat al unei conexiuni de la un serviciu web la un alt serviciu web
+Raspuns:c
+
+Sub ce nume era WildFly cunoscut anterior?
+a.
+Tomcat
+b.
+JBoss
+c.
+Red Hat
+d.
+GlassFish
+Raspuns b
+
+
+
+Ce este WildFly?
+a.
+Un server de baze de date
+b.
+Un modul maven
+c.
+Un server web
+d.
+Un pachet de aplicatii ce simplifica dezvoltarea de aplicatii de intreprindere
+Raspuns:d ?
+
+
+Cum se numeste documentul implicit de configurare al accesului la date pentru un proiect JPA?
+a.
+build.xml
+b.
+pesistence.xml
+c.
+pom.xml
+d.
+app.xml
+Raspuns: c
+
+
+Termenul de subinterogare se refera la:
+a.
+Utilizarea clauzei SUBQUERY în sintaxa instrucțiunii SQL
+b.
+O procesare ce se aplică în cazul relațiilor de tipul 1 la 1
+c.
+Un concept neimplement de SGBD-uri
+d.
+O instrucţiune SELECT care conţine o instrucţiune SELECT subordonată
+Raspuns: d
+
+
+Sub ce licență este dezvoltat utilitarul de gestiune a proiectelor numit Maven?
+a.
+MIT
+b.
+Free Software Foundation
+c.
+Apache Software Foundation
+d.
+Linux Foundation
+Raspuns c
+
+
+Care este rolul unui container?
+a.
+sa gestioneze ciclului de viata al obiectelor legate de un context
+b.
+sa defineasca vizibilitatea sau durata de viata a obiectelor gestionate
+c.
+niciun raspuns corect
+d.
+sa descrie relatiile dintre obiectele gestionate
+
+Raspuns: a
+
+
+
+Serverul web implicit în aplicația Spring Boot poate fi dezactivat folosind fisierul de configurari application.properties care este utilizat si pentru a configura tipul aplicatiei web.
+
+Selectați o opțiune:
+Adevărat
+Fals
+Raspuns: adev
+
+
+Pentru combinarea randurilor din doua sau mai multe tabele pe baza unei coloane comune exista urmatoarele tipuri de join:
+a.
+full outer join
+b.
+inner join
+c.
+left outer join
+d.
+right outer join
+Raspuns: toate
+
+
+Pentru exprimarea unei conditii intr-o fraza SELECT (SQL) se foloseste clauza:
+a.
+WHERE
+b.
+FROM
+c.
+HAVING
+d.
+GROUP BY
+
+Raspuns: a
+
+
+Pentru a stabili o conexiune rapida la baza de date, numele JNDI specificat pentru datasource in fisierul de configurare standalone.xml trebuie sa fie identic cu:
+a.
+valoarea atributului jta-data-source specificata in fisierul persistence.xml
+b.
+numele unitatii de persistenta (persistence-unit name) specificata in fisierul persistence.xml
+c.
+identificatorul artefactului din fisierul pom.xml
+d.
+numele bazei de date
+Raspuns:a
+
+
+Care dintre următoarele căi (paths) sunt specifice unei structuri de proiect gestionat cu Maven?
+a.
+src/main/java
+b.
+src/test/java
+c.
+src/java/main
+d.
+src/java/test
+Raspuns:a, b
+
+
+Care dintre urmatoarele afirmatii sunt adevarate relativ la fisierul pom.xml?
+a.
+Conține informații despre proiect si diferite configurări folosite de Maven pentru a crea proiectul.
+b.
+Un fișier de configurare xml care specifica ce biblioteci externe sunt folosite din repository-ul M2
+c.
+Toate afirmatiile sunt corecte
+d.
+Întotdeauna se afla in rădăcina proiectului
+Raspuns: c
+
+
+Cu roluri are un Controller?
+a.
+injecteaza prin mecanismul CDI mai multe servicii, care ofera functionalitati
+b.
+transporta date intre Model si View (in ambele sensuri)
+c.
+mapeaza cai de acces din url metodelor Java
+d.
+agrega datele primite cu un template
+Raspuns:a,b,c
+
+
+Care sunt artefactele necesare pentru a crea un proiect JPA?
+a.
+o clasă separată pentru ștergerea unei entități
+
+b.
+clasă care să se ocupe de căutarea, actualizarea sau adăugarea unei entități
+
+c.
+clase entitate
+
+d.
+fișierul persistence.xml
+Raspuns: b,c,d
+
+
+Ce trebuie sa faca sistemul pentru ca acesta să se recupereze din impas?
+a.
+sa furnizeze un algoritm care utilizează informații pentru a determina dacă sistemul a intrat într-o stare de impas
+b.
+sa astepte pana cand va fi posibila utilizarea unui protocol de prevenire a impasului
+c.
+sa mențina informații despre alocarea curentă de date pentru tranzacții, precum și despre orice solicitări de date rămase
+d.
+sa se recupereze din impas atunci când algoritmul de detectare determină existența unui impas
+Rasspuns:a,c,d
+
+
+
+Care sunt avantaje ale utilizarii bibliotecii Volley?
+a.
+Activare mecanism de reincercare
+b.
+Programarea manuala a operatiilor in retea
+c.
+Suport pentru gestiunea prioritatii cererilor http
+d.
+Simplificarea procesarii cererilor si raspunsurilor catre servicii web REST
+Raspuns:c
+
+
+CDI provine de la Contexts and Dependency Injection .
+
+
+Ce proprietati ale relatiilor se pot specifica in JPA la utilizarea adnotarii @Entity?
+a.
+Nici un raspuns nu este corect
+b.
+Constrangeri si validari ale relatiei
+c.
+Cardinalitatea relatiei
+d.
+Selectarea in cascada pentru obiecte
+Raspuns:a
+
+
+Cum se numeste mecanismul pe care de bazeaza Dependency Injection?
+a.
+Dependency Integration (DI)
+b.
+Inversion of Control (IoC)
+c.
+Instantiation of Control (IoC)
+d.
+Dependency Injection (DI)
+Raspuns:b
+
+
+Ce nu este Spring Boot?
+a.
+un framework open source bazat pe Java folosit pentru a crea microservicii
+b.
+un framework care permite dezvoltarea rapida de aplicatii web
+c.
+un instrument de management si documentare a proiectelor
+d.
+o platforma Java folosita pentru a dezvolta aplicatii autonome care pot rula cu un minim de configuratie
+Raspuns:b,c
+
+
+Care dintre urmatoarele nu este o adnotatie specifica Spring Boot?
+a.
+@Repository
+b.
+@Controller
+c.
+@Service
+d.
+@Entity
+Raspuns:d
+
+
+Care este rolul arhetipului in Maven?
+a.
+se ocupa de gestionarea dependentelor
+b.
+tine evidenta librariilor utilizate in proiect
+c.
+stocheaza toate versiunile proiectului
+d.
+creaza o structură de proiect conform șablonului său
+Rsspuns: d
+
+
+Event Selector se foloseste pentru:
+a.
+A primi evenimente pentru obiecte
+b.
+A creea evenimente pentru un obiect
+c.
+A califica anumite evenimente pentru o clasa
+d.
+A intercepta apeluri ale obiectelor sau metodelor
+Raspuns:c
+
+
+Care este tipul de fișier arhiva  care nu este utilizat in WildFly?
+a.
+sar
+b.
+jar
+c.
+tar
+d.
+war
+Raspuns:c
+
+
+
+In contextul WildFly, la ce foloseste fisierul standalone.xml?
+a.
+la pornirea serverului WildFly
+b.
+la configurarea cailor de acces si a rutelor din aplicatie
+c.
+la modificarea diferitelor setari pentru WildFly
+d.
+la alegerea sistemului de gestiune a bazei de date
+Raspuns:c
+
+
+
+Alegeti afirmatia corecta despre JPA:
+a.
+Clasele si obiectele sunt mapate la tabele si inregistrari
+b.
+JPA este popular printre utilizatori datorita complexitatii si performantei
+c.
+Fiecare instanta a clasei corespunde mai multor linii din tabel
+d.
+Interogarile se refera la tabele din baza de date, nu la entitati
+Raspuns:a
+
+
+Care dintre urmatoarele relatii dintre entitati sunt posibile in JPA?
+a.
+Many-to-one
+b.
+One-to-one
+c.
+One-to-many
+d.
+Many-to-many
+Rasspuns:toate
+
+
+Care sunt metodele prin care se tratează problema blocajului?
+a.
+putem permite sistemului să intre într-o stare de impas și apoi să încercăm să recuperăm folosind o schemă de detectare și recuperare
+b.
+prin utilizarea unui protocol de prevenire a blocajului
+c.
+folosirea unei variabile de detectare a blocajului
+d.
+se impune o comandă tuturor articolelor de date și se solicita ca o tranzacție să blocheze elemente de date doar într-o secvență în concordanță cu comanda
+Raspuns:a,b
+
+Care dintre urmatoarele nu este o fază din ciclul de viata al proiectelor gestionate cu Maven?
+a.
+run
+b.
+validate
+c.
+verify
+d.
+compile
+Rsspuns:a
+
+
+Marcati parametri necesari pentru creare obiect JsonObjectRequest:
+a.
+EventListener
+b.
+ErrorType
+c.
+url
+d.
+JSONBody
+Raspuns:d,c
+
+
+
+Se da relatia:
+ANGAJATI (CodAngaj, Nume, DataAngajare, Departament, Profesia, Salariu).
+Care dintre urmatoarele instructiuni SQL permite afisarea numarului de salariati din fiecare departament care incepe cu litera ”A”?
+a.
+SELECT COUNT(CodAngajat) AS Numar, Departament FROM ANGAJATI WHERE Departament like "A*" GROUP BY Departament
+b.
+SELECT CodAngajat, Nume, Departament FROM ANGAJATI WHERE Departament like A*
+c.
+SELECT COUNT(CodAngajat) AS Numar, Nume, Departament FROM ANGAJATI WHERE Nume like "A*" GROUP BY Departament
+d.
+SELECT CodAngajat, Nume, Departament FROM ANGAJATI WHERE Nume like A*
+Raspuns:a
+
+
+Ce sunt interceptorii CDI?
+
+
+a.
+Aspecte care sunt aplicate obiectelor Java prin configurare fara ca tinta sa stie nimic despre ele
+
+
+b.
+Gestionarea obiectelor pentru un scop
+
+
+c.
+Utilizati pentru a selecta anumite implementari pentru injectare
+
+d.
+Mecanism de injectie dependenta
+Raspuns:a
+
+
+
+Care a fost prima incercare de framework creat pentru persistenta datelor?
+a.
+JPA (Java Persistence API) 
+b.
+EJB (Enterprise Java Beans)
+c.
+OMG (Object Management Group)
+d.
+JDO (Java Data Objects)
+Raspuns:c
+
+
+Care dintre pachetele de mai jos sunt prezente intr-o structură tipică pentru o aplicație creată cu Spring Boot?
+
+a.
+service
+
+
+b.
+controller
+
+
+c.
+model
+
+
+d.
+dao
+Raspuns toate
+
+
+
+
+Care dintre urmatoarele afirmatii sunt adevarate relativ la fisierul pom.xml?
+
+
+a.
+Este un fisier de configurare xml care specifica ce biblioteci externe sunt folosite din depozitul de biblioteci maven (repository M2) 
+
+
+b.
+Contine informatii despre proiect si diferite configurări folosite de Maven pentru a crea proiectul
+
+
+c.
+Intotdeauna se afla in radacina proiectului
+
+
+d.
+Toate afirmatiile sunt corecte
+Raspuns:d
+
+
+
+
+Unde regasim fisierele de configurare, pe care nu dorim sa le livram, intr-un proiect Maven?
+a.
+src/main/config
+
+
+b.
+src/main/resources
+
+
+c.
+src/main/webapp
+
+
+d.
+src/test/webapp
+Raspuns:a
+
+
+
+
+
+Ce afirmatie este adevărata despre comanda 'mvn clean'?
+a.
+Generează documentația pentru proiect
+b.
+Șterge artefactele create de rulările precedente
+c.
+Este folosita la migrarea aplicațiilor
+d.
+Se folosește pentru asamblarea unei aplicații
+Raspuns:b
+
+
+Pentru a alipi doua tabele folosind JOIN in SQL se utilizeaza instructiunile
+a.
+INSERT
+b.
+COMMIT
+c.
+SELECT
+d.
+UPDATE
+Raspuns: a
+
+
+
+Care dintre afirmatiile de mai jos despre JPQL sunt adevarate?
+a.
+Permite si interogari native SQL
+
+
+b.
+Permite doar interogari in format SQL
+
+
+c.
+Sintaxa interogarilor este similara cu cele SQL
+
+d.
+Interogarile se fac pe tabelele bazei de date
+Raspuns:a,c
+
+
+
+Alegeti afirmatiile corecte despre JPQL: 
+
+
+a.
+Interogarile JPQL se refera la tabele de baze de date si nu la entitati.
+
+
+b.
+JPQL nu permite executarea de interogari SQL native.
+
+
+c.
+Interogarile JPQL sunt sintactic similare cu interogarile SQL.
+
+
+d.
+Interogarile JPQL se refera la instante obiect si nu la tabele de baze de date.
+Raspuns:d,c
+
+
+
+Prin intermediul CDI, standardul Java EE este extins pentru a include urmatoarele functionalitati:
+a.
+Mecanism de injectie dependente (DI)
+b.
+Domeniul de aplicare este intre cerere (request) si sesiune (session)
+c.
+Decuplarea interceptorilor (interceptor)
+d.
+Decoratori (decorator)
+Raspuns:a,b
+
+
+
+Cum trebuie adnotată clasa Java care conține metoda main() a unei aplicații cu Spring Boot?
+
+
+a.
+@SpringBootApp
+
+
+b.
+@Run
+
+
+c.
+@Boot
+
+
+d.
+@SpringBootApplication
+Raspuns d
+
+
+Maven are urmatoarele avantaje:
+
+
+a.
+managementul dependintelor realizat prin descarcari automate
+
+
+b.
+configurarea rapida si facila a procesului de build
+
+
+c.
+generarea documentatiei si a site-ului web al proiectului
+
+
+d.
+standardizare; gestionarea depozitului de biblioteci (eng. repository)
+Raspuns: toate
+
+
+
+Folosind baza de date COMENZI care conține tabelele: 
+PERSOANE (IdPersoana - pk, Nume, Prenume, Oras) 
+COMENZI (IdComanda - pk, Valoare, IdPersoana - fk) 
+precizați interogarea care generează o lista cu valoarea totala a comenzilor efectuate de fiecare persoană.
+a.
+SELECT Comenzi.IdPersoana, SUM(Comenzi.Valoare) FROM Comenzi
+
+b.
+SELECT Comenzi.IdPersoana, SUM(Comenzi.Valoare) FROM Comenzi GROUP BY Comenzi.IdPersoana
+
+
+c.
+SELECT Comenzi.IdPersoana, SUM(Comenzi.Valoare) FROM Comenzi ORDER BY Comenzi.IdPersoana
+
+
+d.
+SELECT Comenzi.IdPersoana, AVG(Comenzi.Valoare) FROM Comenzi GROUP BY Comenzi.IdPersoana
+Raspuns b
+
+
+
+
+Ce este Volley?
+
+
+a.
+un framework pentru crearea de aplicatii web care se pot adapta in functie de ecranul dispozitivului folosit
+
+
+b.
+un limbaj de programare destinat dezvoltarii de aplicatii mobile
+
+
+c.
+o biblioteca peste protocolul HTTP care face mai usoara si mai rapida comunicarea in retele pentru aplicatiile Android
+
+
+d.
+un sport in care doua echipe, separate de un fileu inalt, trebuie sa treaca o minge pe deasupra acestuia, folosind doar mainile, pentru a face ca mingea sa atinga terenul advers
+Raspuns:c
+
+
+
+
+Care dintre următoarele adnotări este folosită în cadrul unui proiect JPA pentru a marca o cheie primară?
+
+a.
+@Entity
+
+
+b.
+@Id
+
+
+c.
+@GeneratedValue
+
+
+d.
+@Primary
+Raspuns:b
+
+
+
+
+
+Care este diferența dintre trimiterea unei cereri http cu ajutorul unei clase de tipul AsyncTask respectiv cu ajutorul clasei de tip Volley?
+a.
+Un avantaj major al Android Volley spre deosebire de AsyncTask este faptul că se pot face mai multe cereri http simultan, fără suprasolicitarea firelor de execuție.
+b.
+Cererea http este stocată temporar într-o memorie cache în cazul folosirii unei clase Volley.
+c.
+Cererea http este stocată permanent într-o memorie de tip cache în cazul folosirii unei clase AsyncTask.
+d.
+Folosirea unei clase de tip Volley influentează pozitiv timpul de execuție al unui request http.
+Raspuns:a,b,d
+
+
+
+Instrucțiunea ALTER TABLE permite:
+a.
+Ștergerea cheii primare a unui tabel
+
+
+b.
+Ștergerea datelor redundante
+
+
+c.
+Actualizarea conținutului unei tabelei
+
+
+d.
+Modificarea datelor din tabelă
+Raspuns:d
+
+
+
+
+
+Ce este Maven?
+a.
+un instrument de gestiune si intelegere a proiectelor
+
+
+b.
+un instrument de gestionare a dependintelor (en. dependency)
+
+
+c.
+un instrument pentru documentare proiecte
+
+
+d.
+un build tool (instrument de construire proiecte)
+Raspuns:b,c,d
+
+
+
+Cum se numește subdirectorul proiectui în care se află fișierul persistence.xml?
+a.
+PERSISTENCE
+
+b.
+META-INFO
+
+
+c.
+META-INF
+
+
+d.
+META-DOCS
+Raspuns:c
+
+
+
+
+JPA este un standard pentru ORM (Object Relational Mapping)
+
+
+
+
+Indicati clase din biblioteca Volley:
+a.
+Column
+b.
+Request
+c.
+RequestQueue
+d.
+Entity
+Raspuns:b,c
+
+
+Care dintre urmatoarele nu este o adnotare pentru o sfera de actiune (eng. scope) CDI?
+a.
+@SessionScoped
+b.
+@LayerScoped
+c.
+@RequestScoped
+d.
+@ConversationScoped
+Raspuns:b
+
+
+
+In cazul utilizarii bibliotecii Volley, unde este stocat temporar o cerere HTTP (request)?
+a.
+o cerere HTTP nu este nicodata stocata temporar
+
+
+b.
+intr-o memorie cache
+
+c.
+pe disc
+
+
+d.
+in cloud
+Raspuns b
+
+
+
+O instanta obiect a clasei RequestQueue gestioneaza:
+a.
+conexiunea la baza de date
+
+
+b.
+thread-urile utilizate pentru executarea operatiilor de comunicare in retea
+
+
+c.
+citirea si scrierea in memoria cache a cererilor HTTP (request)
+
+
+d.
+examinarea raspunsurilor (response)
+Raspuns:b,c,d
+
+
+
+Care dintre urmatoarele adnotari nu apartin JPA?
+a.
+@Entity
+
+
+b.
+@Service
+
+
+c.
+@Id
+
+
+d.
+@Column
+Raspuns: b
+
+
+
+Care dintre următoarele variante de răspuns referioare la DI (Dependency Injection) sunt corecte?
+a.
+DI este un exemplu de pundere în practică a principiului inversiunii controlului (IoC).
+
+
+b.
+DI transferă responsabilitatea creării și conectării obiectelor unui framework configurabil din exterior.
+
+
+c.
+Cu ajutorul DI codul obiectului devine independent de mediul în care a fost creat, ceea ce facilitează crearea de teste unitare.
+
+
+d.
+DI este un model de proiectare cu ajutorul căruia dependențele între componentele sau obiectele unui sistem obiect orientat sunt maximizate.
+Raspuns:a,b,c
+
+
+
+
+Care dintre următoarele afirmații cu privire la Wildfly nu sunt adevărate?
+a.
+Codul sursă al serverului Wildfly poate fi descărcat de pe pagina producătorului în schimbul unei sume modice
+
+
+b.
+Wildfly poate rula pe mai multe platforme
+
+
+c.
+Wildfly este primul server certificat de aplicații de tip "open-source"
+
+
+d.
+Serverul Wildfly este de tipul "cross-plattform"
+Raspuns:a
+
+
+
+Pentru ce sunt utilizate serviciile CDI?
+a.
+Permite definirea vizibilitatii obiectelor 
+
+
+b.
+Ajuta la prevenirea erorilor de progrmare
+
+
+c.
+Permite definirea duratei de viata pentru obiectele gestionate
+
+
+d.
+Extind aplicatiile Android
+Raspuns:a,c
+
+
+
+
+Ce elemente obligatorii sunt configurate în secțiunea <project>..</project> a unui fișier pom.xml?
+a.
+<artifactId>
+
+
+b.
+<modelVersion>
+
+
+c.
+<version>
+
+
+d.
+<groupId>
+
+Raspuns:toate
+
+
+
+Ce comanda maven se utilizeaza pentru a converti un proiect maven intr-un proiect eclipse?
+a.
+mvn -version
+
+
+b.
+eclipse mvn:eclipse
+
+
+c.
+mvn eclipse:eclipse
+
+
+d.
+eclipse -mvn eclipse
+Raspuns:c
+
+
+
+Care sunt caracteristicile JPA?
+a.
+JPA (Java Persistence API) reprezintă o colecție de clase (în limbajul de programare Java), oferind funcționalități legate de interogarea eficientă a informațiilor stocate în baze de date relaționale, mai ales în situația în care volumul acestora este considerabil
+b.
+JPA este o interfață de programare
+c.
+JPA reprezintă deja un standard în privința nivelului de acces la date
+d.
+JPA implementează un nivel de abstractizare, toate informațiile fiind stocate la nivel de obiecte, astfel încât programatorul nu este obligat să cunoască detaliile specifice unui sistem de gestiune al bazelor de date
+Raspuns:a,c, d
+
+
+
+Pentru ca un obiect sa poata fi gestionat de catre container-ul de CDI, acesta trebuie sa:
+a.
+Sa aiba un constructor implicit (fara parametri).
+b.
+Sa aiba un constructor adnotat cu @Inject.
+c.
+Nu aiba niciun constructor definit.
+d.
+Sa mosteneasca constructorul din superclasa.
+Raspuns:a,b
+
+
+
+Care dintre următoarele afirmații referitoare la CDI-Bean și CDI-Container sunt adevărate?
+a.
+Un CDI-Bean este un obiect, al cărui ciclu de viață este gestionat de CDI-Container.
+
+
+b.
+Un CDI-Bean este responsabil cu administrarea ciclului de viață al obiectelor legate de un context.
+
+
+c.
+Un CDI-Container este responsabil cu administrarea ciclului de viață al obiectelor legate de un context.
+
+
+d.
+Un CDI-Container este un obiect, al cărui ciclu de viață este gestionat de CDI-Bean.
+
+Raspuns:a,c
+
+
+
+
+In cadrul dezvoltarii aplicatiilor web, precizati la ce este folosita biblioteca Volley.
+a.
+Implementarea bazelor de date
+
+
+b.
+Gestiunea conexiunilor la bazele de date distribuite
+
+
+c.
+Crearea de cereri folosind http
+
+
+d.
+Dezvoltarea de module ale aplicatiilor
+Raspuns: c
